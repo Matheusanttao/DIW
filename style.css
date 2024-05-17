@@ -1,0 +1,102 @@
+/* Estilos para dispositivos com largura máxima de 768 pixels */
+@media (max-width: 768px) {
+  #carouselExampleCaptions {
+    width: 100%;
+  }
+
+  .list-unstyled.col-8,
+  .list-unstyled.col-2 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Estilos para dispositivos com largura mínima de 769 pixels */
+@media (min-width: 769px) {
+  #carouselExampleCaptions {
+    width: 70%;
+  }
+}
+
+/* Define a largura dos cards para 100% em telas pequenas */
+.product-card {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+/* Define a largura dos cards para 50% em telas médias */
+@media (min-width: 576px) {
+  .product-card {
+    flex: 0 0 50%;
+  }
+}
+
+/* Define a largura dos cards para 33.33% em telas grandes */
+@media (min-width: 768px) {
+  .product-card {
+    flex: 0 0 33.33%;
+  }
+}
+
+/* Define a largura dos cards para 25% em telas extra-grandes */
+@media (min-width: 992px) {
+  .product-card {
+    flex: 0 0 25%;
+  }
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+
+
+.card-text {
+  margin-bottom: 8px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.yellow-star {
+  color: #FFD700;
+}
+
+.card {
+  height: 100%;
+}
+
+/*teste menu*/
+.menu-link {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-link:hover {
+  color: #0008ff;
+  /* Altere a cor aqui para a cor desejada ao passar o mouse */
+}
